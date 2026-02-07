@@ -2,7 +2,7 @@
 
 This repository documents my structured progression through Zero To Mastery’s **Complete React Developer** and **Complete Web Developer** courses.
 
-The goal is not just to follow tutorials, but to treat each section as a hands-on lab — reinforcing concepts, experimenting, refactoring, and building production-ready understanding.
+The goal is not just to follow tutorials, but to treat each section as a hands-on lab... reinforcing concepts, experimenting, refactoring, and building production-ready understanding.
 
 This repo functions as:
 
@@ -179,5 +179,5 @@ By completion, this repository should demonstrate:
 ## Author
 
 Mike MacDonagh  
-Learning in public — building systems, tools, and understanding one commit at a time.
+Learning in public: building systems, tools, and understanding one commit at a time.
 
