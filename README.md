@@ -1,4 +1,4 @@
-# ZTM Course Lab — React + Web Developer Track
+# ZTM Course Lab - React + Web Developer Track
 
 This repository documents my structured progression through Zero To Mastery’s **Complete React Developer** and **Complete Web Developer** courses.
 
