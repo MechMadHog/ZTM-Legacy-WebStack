@@ -34,7 +34,51 @@ React represented a shift from page-driven development toward composable UI syst
 
 ---
 
+1. Don’t touch the DOM… I’ll handle it.
+
+**Imperative**: directly changing individual parts of an app.
+“If this… then do that.”
+Relationships can become overly complex, and DOM manipulation can create bottlenecks.
+
+**Declarative**: you describe what the app should look like, and React handles the updates.
+**State** (the data of the app) drives conditional behavior.
+
+Based on the current state, the app declaratively reacts in the appropriate way.
+
+---
+
+2. Building websites like Lego blocks
+
+**Component architecture**
+
+React is centered around reusable components, where components can contain other components to form structured interfaces.
+
+Individual UI pieces are treated as modular objects. Frameworks such as React Bootstrap and Blueprint.js provide prebuilt component systems that can be composed and reused.
+
+Components can be used multiple times within a single app or shared across different projects.
+
+React Developer Tools has been added to the browser to inspect and manage component structure.
+
+React components are ultimately built from HTML elements, organized through JavaScript logic.
+
+---
+
+3. Unidirectional data flow
+
+Components are written using JSX.
+
+The React library is built from functions that use state and components to produce a virtual DOM; a JavaScript representation used as a blueprint for updating the real DOM.
+
+When the UI needs to change, state is updated first. That state change declares what should happen, and React applies the necessary DOM updates. This is the core idea behind unidirectional data flow.
+
+When a user interacts with the app, React processes the event, updates state as needed, and propagates changes downward to the DOM.
+
+These controlled constraints ensure updates flow predictably from state to UI.
+
+---
 
 
+
+   
 
 
