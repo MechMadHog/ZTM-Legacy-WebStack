@@ -64,6 +64,23 @@ Git functionality is already available through the system and editor integration
 
 ---
 
+### Create React App
+
+Create React App (CRA) is used to scaffold React projects with sensible defaults.
+
+It provides a working development environment out of the box so learning can focus on React concepts rather than build configuration.
+
+CRA handles bundling, transpilation, and live reloading automatically. These details are intentionally treated as implementation details at this stage.
+
+The purpose of using CRA here is consistency and reduced setup friction, not long term production optimization.
+
+npx create-react-app *My-App-Name*
+cd *My-App-Name*
+npm start
+
+
+---
+
 ## Node ecosystem
 
 Modern React workflows depend on Node-based tooling.
@@ -203,3 +220,5 @@ This environment supports:
 * scalable workflow habits
 
 Everything above establishes a stable foundation before coding begins.
+
+---
